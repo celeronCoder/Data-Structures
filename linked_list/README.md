@@ -30,7 +30,3 @@ Each node in a list consists of at least two parts:
 ## Reference
 
 - [GeeksforGeeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
-
-## About the Repository
-
-- The __main file__ is [__main.py__](https://github.com/khushalbhardwaj-0111/Data-Structures/blob/linked_list/linked_list/main.py) where the two classes and method are stroed.
