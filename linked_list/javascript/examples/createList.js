@@ -1,7 +1,6 @@
-import pkg from "../main.js";
-const { Node, LinkedList } = pkg;
+import { Node, LinkedList } from "../main.js";
 
-function createList(data1, data2, data3) {
+export default function createList(data1, data2, data3) {
   let node1, node2, node3;
   node1 = new Node(data1);
   node2 = new Node(data2);
@@ -12,6 +11,3 @@ function createList(data1, data2, data3) {
   node2.next = node3;
   return linkedList;
 }
-
-myList = createList(45, 23, 56);
-myList.printList();
