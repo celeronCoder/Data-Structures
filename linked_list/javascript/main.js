@@ -1,11 +1,11 @@
-export class Node {
+class Node {
   constructor(data) {
     this.data = data;
     this.next = null;
   }
 }
 
-export class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null;
     this.size = 0;
@@ -169,3 +169,5 @@ export class LinkedList {
     return false;
   }
 }
+
+export { Node, LinkedList };
